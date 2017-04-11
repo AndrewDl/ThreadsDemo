@@ -40,7 +40,7 @@ public class SomethingLikeCamera {
                 value = (value < 2000) ? value + 1 : 0;
 
                 //типу обірвало поток
-                if (value == 30) {
+                if (value == 20) {
                     connectionLost = true;
                     break;
                 }
